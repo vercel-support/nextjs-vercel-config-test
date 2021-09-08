@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -12,9 +12,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <a href="/api/1s">/1s</a>
-        <a href="/api/5s">/5s</a>
-        <a href="/api/10s">/10s</a>
+        <Link href="/api/1s">/1s</Link>
+        <Link href="/api/5s">/5s</Link>
+        <Link href="/api/10s">/10s</Link>
       </main> 
     </div>
   )
